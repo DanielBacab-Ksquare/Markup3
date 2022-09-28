@@ -11,15 +11,15 @@
     <div class="all">
 
         <div class="steps">
-            <p class="1">1</p>
-            <p class="Cabin">Cabin</p>
+            <p class="number1">1</p>
+            <p class="cabin">Cabin</p>
             <p class="line1"></p>
-            <p class="2">2</p>
+            <p class="number2">2</p>
             <p class="meals">Meals</p>
-            <p class="line">------</p>
+            <p class="line2">- - - - - -</p>
             <p class="number">3</p>
             <p class="step">Upgrades</p>
-            <p class="line">------</p>
+            <p class="line2">- - - - - -</p>
             <p class="number">4</p>
             <p class="step">Payment</p>
 
@@ -32,48 +32,54 @@
         </div>
 
         <div class="options">
-            <div class="option">
-                <label for="breakfast">Breakfast</label>
-                <select name="breakfast" id="breakfast">
-                    <option>Sausage Egg Scramble Bowl</option>
-                </select>
+            <div class="line">
+                <div class="option1">
+                    <label for="breakfast">Breakfast</label>
+                    <select name="breakfast" id="breakfast">
+                        <option>Sausage Egg Scramble Bowl</option>
+                    </select>
+                </div>
+            
+
+                <div class="option2">
+                    <label for="breakfast-drink">Drink</label>
+                    <select name="breakfast-drink" id="breakfast-drink">
+                        <option>Coffee</option>
+                    </select>
+                </div>
+           </div>
+
+           <div class="line">
+                <div class="option1">
+                    <label for="lunch">Lunch</label>
+                    <select name="lunch" id="lunch">
+                        <option>Club Sandwich Meal</option>
+                    </select>
+                </div>
+
+                <div class="option2">
+                    <label for="lunch-drink">Drink</label>
+                    <select name="lunch-drink" id="lunch-drink">
+                        <option>Cranberry Juice</option>
+                    </select>
+                </div>
             </div>
 
-            <div class="option">
-                <label for="breakfast-drink">Drink</label>
-                <select name="breakfast-drink" id="breakfast-drink">
-                    <option>Coffee</option>
-                </select>
-            </div>
+            <div class="line">
+                <div class="option1">
+                    <label for="dinner">Dinner</label>
+                    <select name="dinner" id="dinner">
+                        <option>Wagyu Beef Sliders Meal</option>
+                    </select>
+                </div>
 
-            <div class="option">
-                <label for="lunch">Lunch</label>
-                <select name="lunch" id="lunch">
-                    <option>Club Sandwich Meal</option>
-                </select>
+                <div class="option2">
+                    <label for="dinner-drink">Drink</label>
+                    <select name="dinner-drink" id="dinner-drink">
+                        <option>Red Wine</option>
+                    </select>
+                </div>
             </div>
-
-            <div class="option">
-                <label for="lunch-drink">Drink</label>
-                <select name="lunch-drink" id="lunch-drink">
-                    <option>Cranberry Juice</option>
-                </select>
-            </div>
-
-            <div class="option">
-                <label for="dinner">Dinner</label>
-                <select name="dinner" id="dinner">
-                    <option>Wagyu Beef Sliders Meal</option>
-                </select>
-            </div>
-
-            <div class="option">
-                <label for="dinner-drink">Drink</label>
-                <select name="dinner-drink" id="dinner-drink">
-                    <option>Red Wine</option>
-                </select>
-            </div>
-
         </div>
 
         <div class="dessert">
@@ -83,7 +89,7 @@
 
         <div class="backcontinue">
             <input type="button" name="back" value="Back">
-            <input type="button" name="continue" value="Continue">
+            <input class="continue" type="button" name="continue" value="Continue">
         </div>
 
     </div>
